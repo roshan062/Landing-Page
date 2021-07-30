@@ -1,0 +1,74 @@
+.brand-logo {
+  height: 80%;
+  width: 80%;
+  padding-top: 10px;
+}
+
+.header-image {
+  width: 90%;
+  margin-left: 30px;
+}
+
+.header-image-div {
+  margin: auto;
+}
+
+.header-quote {
+  padding: 10% 15% 2% 6%;
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.header-line {
+  font-family: "Lato", sans-serif;
+  padding: 2% 5% 5% 6%;
+}
+
+.header-button {
+  margin-left: 6%;
+}
+
+.integration {
+  display: inline-block;
+  margin-left: 2%;
+}
+
+.integration-northern {
+  display: inline-block;
+  margin-left: 2%;
+  font-weight: 700;
+}
+
+.integration-google {
+  display: inline-block;
+  margin-left: 2%;
+  font-weight: 500;
+}
+
+.integration-skrill {
+  display: inline-block;
+  margin-left: 2%;
+  font-weight: 900;
+}
+
+.integration-div {
+  font-family: "Lato", sans-serif;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+@media (max-width: 990px) {
+  .header-image {
+    /* height: 80%; */
+    width: 85%;
+    margin-left: 0;
+  }
+
+  .header-image-div {
+    margin-left: 10%;
+  }
+
+  .integration-div {
+    text-align: center;
+  }
+}
